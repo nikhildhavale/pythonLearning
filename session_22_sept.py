@@ -701,7 +701,11 @@
 # for x in mylist:
 #     mylist.append("test")
 #     print(x)
-    
+### remove the item in for loop    
+mylist = ["apple","banana","cherry","apple"]
+for x in mylist:
+    print(x)
+    mylist.remove("apple")
     
 # mylist = ["apple","banana","cherry","apple"]
 # for x in range(len(mylist)):
