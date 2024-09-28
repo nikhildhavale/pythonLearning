@@ -699,6 +699,7 @@
 #  for loop
 # mylist = ["apple","banana","cherry","apple"]
 # for x in mylist:
+#     mylist.append("test")
 #     print(x)
     
     
