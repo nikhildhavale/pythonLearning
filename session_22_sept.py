@@ -706,6 +706,7 @@ mylist = ["apple","banana","cherry","apple"]
 for x in mylist:
     print(x)
     mylist.remove("apple")
+print(mylist)
     
 # mylist = ["apple","banana","cherry","apple"]
 # for x in range(len(mylist)):
